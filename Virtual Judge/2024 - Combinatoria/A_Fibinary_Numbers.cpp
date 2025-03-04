@@ -5,7 +5,7 @@ signed main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     string s;
-    bool first_case = false;
+    bool first_case = true;
     while (cin >> s) {
         if (!first_case) cout << '\n';
         first_case = false;
